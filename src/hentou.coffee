@@ -18,5 +18,8 @@ module.exports = (robot) ->
   robot.respond /おはよう/, (msg) ->
     msg.send '今日も一日（周回を）頑張るぞい！'
 
-  robot.hear /元気？/, (msg) ->
+  robot.respond /元気？/, (msg) ->
     msg.send '3万で100連したら無料で出たから元気やぞ！'
+    
+  robot.respond /ありがとう/, (msg) ->
+    msg.send '礼はiTunes Cardでするんだなァ！？'
