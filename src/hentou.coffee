@@ -23,3 +23,9 @@ module.exports = (robot) ->
     
   robot.respond /ありがとう/, (msg) ->
     msg.send '礼はiTunes Cardでするんだなァ！？'
+
+  robot.respond /die/, (msg) ->
+    msg.send 'ｸﾞﾊｯ…というとでも思ったかガハハ！'
+
+  robot.respond /つらい/, (msg) ->
+    msg.send 'ガチャを回すといいゾ！'
